@@ -1443,32 +1443,6 @@
       }
     },
     "Component common": {
-      "Autocaller": {
-        "statisticsAutocallerTimezoneCallRestricted": {
-          "value": "#AD4CBE",
-          "type": "color"
-        },
-        "statisticsAutocallerTimezoneIncoming": {
-          "value": "#FFA718",
-          "type": "color"
-        },
-        "statisticsAutocallerTimezoneInProcessing": {
-          "value": "#38A8FA",
-          "type": "color"
-        },
-        "statisticsAutocallerTimezoneLimitIsExceeded": {
-          "value": "#00B5B5",
-          "type": "color"
-        },
-        "statisticsAutocallerTimezoneSuccess": {
-          "value": "#8CBB26",
-          "type": "color"
-        },
-        "statisticsAutocallerTimezoneWasNotCalls": {
-          "value": "{Common.General.mist30}",
-          "type": "color"
-        }
-      },
       "Call": {
         "callEndingColor": {
           "value": "#E5E5E5",
