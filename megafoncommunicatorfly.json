@@ -1,5 +1,5 @@
 {
-  "MegaFon_communicator": {
+  "MegaFon_communicator_fly": {
     "Common": {
       "Brand": {
         "brand1": {
@@ -3971,7 +3971,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "MegaFon_communicator"
+      "MegaFon_communicator_fly"
     ]
   }
 }
