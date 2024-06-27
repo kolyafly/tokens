@@ -1653,21 +1653,6 @@
           "type": "color"
         }
       },
-      "Telephone numbers": {
-        "numBlue": {
-          "value": "#485bbf",
-          "type": "color",
-          "description": "Цвета номеров в статистике по номерам."
-        },
-        "numBrown": {
-          "value": "#8b7167",
-          "type": "color"
-        },
-        "numGreen": {
-          "value": "#009028",
-          "type": "color"
-        }
-      },
       "Text": {
         "dayOffColor": {
           "value": "{Component common.Critical.criticalHover}",
