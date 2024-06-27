@@ -1,0 +1,3977 @@
+{
+  "MegaFon_communicator": {
+    "Common": {
+      "Brand": {
+        "brand1": {
+          "value": "#731982",
+          "type": "color"
+        },
+        "brand2": {
+          "value": "#980CAB",
+          "type": "color"
+        },
+        "brand3": {
+          "value": "#62096E",
+          "type": "color"
+        },
+        "brand4": {
+          "value": "#00B956",
+          "type": "color"
+        },
+        "brand5": {
+          "value": "#00EE6F",
+          "type": "color"
+        },
+        "brand6": {
+          "value": "#404D46",
+          "type": "color"
+        }
+      },
+      "btnCriticalShadowCommon": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "12",
+          "spread": "0",
+          "color": "rgba({Component common.Critical.criticalTouch}, 0.25)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "btnCriticalShadowHoverCommon": {
+        "value": {
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0",
+          "color": "rgba({Component common.Critical.criticalTouch}, 0.25)",
+          "type": "dropShadow"
+        },
+        "type": "boxShadow"
+      },
+      "btnPrimaryShadowCommon": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "12",
+            "spread": "0",
+            "color": "rgba({Component special.Buttons.btnPrimaryBgColorTouch}, 0.15)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "2",
+            "spread": "0",
+            "color": "rgba({Component special.Buttons.btnPrimaryBgColorTouch}, 0.1)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "btnPrimaryShadowHoverCommon": {
+        "value": [
+          {
+            "x": "0",
+            "y": "16",
+            "blur": "40",
+            "spread": "0",
+            "color": "rgba({Component special.Buttons.btnPrimaryBgColorTouch}, 0.16)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba({Component special.Buttons.btnPrimaryBgColorTouch}, 0.12)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "btnSecondaryShadowCommon": {
+        "value": [
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(#282828, 0.15)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "2",
+            "spread": "0",
+            "color": "rgba(#282828, 0.12)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "btnSecondaryShadowHoverCommon": {
+        "value": [
+          {
+            "x": "0",
+            "y": "12",
+            "blur": "36",
+            "spread": "0",
+            "color": "rgba(#282828, 0.16)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "rgba(#282828, 0.08)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow"
+      },
+      "commonContentWidthNoSidebar": {
+        "value": "1200px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области без боковой панели."
+      },
+      "commonContentWidthSidebar": {
+        "value": "1112px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области с боковой панелью."
+      },
+      "commonLBorderRadius": {
+        "value": "{baseBorderRadius}*3",
+        "type": "borderRadius"
+      },
+      "commonMarginL": {
+        "value": "{marginBase}*4",
+        "type": "spacing"
+      },
+      "commonMarginM": {
+        "value": "{marginBase}",
+        "type": "spacing"
+      },
+      "commonMarginNone": {
+        "value": "{marginBase}*0",
+        "type": "spacing"
+      },
+      "commonMarginS": {
+        "value": "{marginBase}",
+        "type": "spacing"
+      },
+      "commonMBorderRadius": {
+        "value": "{Common.commonSBorderRadius}*2",
+        "type": "borderRadius"
+      },
+      "commonMinContentWidthNoSidebar": {
+        "value": "1168px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области без боковой панели."
+      },
+      "commonMinContentWidthSidebar": {
+        "value": "1080px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области с боковой панелью."
+      },
+      "commonMinContentWidthWithSidebar": {
+        "value": "1080px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области с боковой панелью."
+      },
+      "commonNoBorderRadius": {
+        "value": "{baseBorderRadius}*0",
+        "type": "borderRadius"
+      },
+      "commonSBorderRadius": {
+        "value": "{baseBorderRadius}",
+        "type": "borderRadius"
+      },
+      "commonWidthL": {
+        "value": "1168px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области без боковой панели."
+      },
+      "commonWidthM": {
+        "value": "1080px",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области с боковой панелью."
+      },
+      "commonXLBorderRadius": {
+        "value": "{baseBorderRadius}*4",
+        "type": "borderRadius"
+      },
+      "commonXXLBorderRadius": {
+        "value": "{baseBorderRadius}*6",
+        "type": "borderRadius"
+      },
+      "commonXXXLBorderRadius": {
+        "value": "{baseBorderRadius}*10",
+        "type": "borderRadius"
+      },
+      "fontFamilyNotoSansArmenian": {
+        "value": "Noto Sans Armenian",
+        "type": "fontFamilies"
+      },
+      "fontFamilyNotoSansGeorgian": {
+        "value": "Noto Sans Georgian",
+        "type": "fontFamilies"
+      },
+      "fontFamilyRoboto": {
+        "value": "Roboto",
+        "type": "fontFamilies"
+      },
+      "General": {
+        "black": {
+          "value": "#000",
+          "type": "color"
+        },
+        "critical": {
+          "value": "#DC0919",
+          "type": "color"
+        },
+        "mist5": {
+          "value": "#F2F2F2",
+          "type": "color"
+        },
+        "mist10": {
+          "value": "#E5E5E5",
+          "type": "color"
+        },
+        "mist15": {
+          "value": "#D9D9D9",
+          "type": "color"
+        },
+        "mist30": {
+          "value": "#B2B2B2",
+          "type": "color"
+        },
+        "mist80": {
+          "value": "#333333",
+          "type": "color"
+        },
+        "transparent": {
+          "value": "#FFFFFF00",
+          "type": "color"
+        },
+        "white": {
+          "value": "#fff",
+          "type": "color"
+        }
+      },
+      "letterSpacingNormal": {
+        "value": "normal",
+        "type": "letterSpacing"
+      },
+      "letterSpacingUppercase": {
+        "value": "0.28px",
+        "type": "letterSpacing"
+      },
+      "letterSpacingWide": {
+        "value": "1px",
+        "type": "letterSpacing"
+      },
+      "paragraphSpacing2": {
+        "value": "2px",
+        "type": "paragraphSpacing",
+        "description": "{draft}"
+      },
+      "paragraphSpacing8": {
+        "value": "8px",
+        "type": "paragraphSpacing"
+      },
+      "paragraphSpacing16": {
+        "value": "16px",
+        "type": "paragraphSpacing"
+      },
+      "paragraphSpacing24": {
+        "value": "24px",
+        "type": "paragraphSpacing"
+      },
+      "paragraphSpacingNone": {
+        "value": "0",
+        "type": "paragraphSpacing"
+      },
+      "roboto400": {
+        "value": "400",
+        "type": "fontWeights"
+      },
+      "roboto500": {
+        "value": "500",
+        "type": "fontWeights"
+      },
+      "roboto700": {
+        "value": "700",
+        "type": "fontWeights"
+      },
+      "roboto900": {
+        "value": "900",
+        "type": "fontWeights",
+        "description": "{draft}"
+      },
+      "textCaseNone": {
+        "value": "none",
+        "type": "textCase"
+      },
+      "textCaseUppercase": {
+        "value": "uppercase",
+        "type": "textCase"
+      }
+    },
+    "Component variables": {
+      "activeClickableVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Кликабельные элементы: фон тоггла, обводка и отметки у чекбоксов и радиокнопок"
+      },
+      "activeNonClickableVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Некликабельные элементы: фон и границы переключателей, границы инпутов и карточек"
+      },
+      "btnPrimaryBgColorDefaultVar": {
+        "value": "{Common.Brand.brand1}",
+        "type": "color",
+        "description": "Фон основной кнопки"
+      },
+      "btnPrimaryBgColorHoverVar": {
+        "value": "{Common.Brand.brand2}",
+        "type": "color",
+        "description": "Фон основной кнопки при наведении"
+      },
+      "btnPrimaryBgColorTouchVar": {
+        "value": "{Common.Brand.brand3}",
+        "type": "color",
+        "description": "Фон основной кнопки при нажатии"
+      },
+      "btnPrimaryTextColorDefaultVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Текст основной кнопки"
+      },
+      "btnPrimaryTextColorHoverVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Текст основной кнопки при наведении"
+      },
+      "btnPrimaryTextColorTouchVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Текст основной кнопки при нажатии"
+      },
+      "btnSecondaryBgColorDefaultVar": {
+        "value": "{Common.General.transparent}",
+        "type": "color",
+        "description": "Фон дополнительной кнопки"
+      },
+      "btnSecondaryBgColorHoverVar": {
+        "value": "{Common.Brand.brand2}",
+        "type": "color",
+        "description": "Фон дополнительной кнопки при наведении"
+      },
+      "btnSecondaryBgColorTouchVar": {
+        "value": "{Common.Brand.brand3}",
+        "type": "color",
+        "description": "Фон дополнительной кнопки при нажатии"
+      },
+      "btnSecondaryBorderColorDefaultVar": {
+        "value": "{Common.General.mist80}",
+        "type": "color",
+        "description": "Граница дополнительной кнопки"
+      },
+      "btnSecondaryBorderColorHoverVar": {
+        "value": "{Common.Brand.brand2}",
+        "type": "color",
+        "description": "Граница дополнительной кнопки при наведении"
+      },
+      "btnSecondaryBorderColorTouchVar": {
+        "value": "{Common.Brand.brand3}",
+        "type": "color",
+        "description": "Граница дополнительной кнопки при нажатии"
+      },
+      "btnSecondaryContentColorDefaultVar": {
+        "value": "{Common.General.mist80}",
+        "type": "color",
+        "description": "Иконка и текст дополнительных кнопок"
+      },
+      "btnSecondaryContentColorHoverVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Иконка и текст дополнительных кнопок при наведении"
+      },
+      "btnSecondaryContentColorTouchVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Иконка и текст дополнительных кнопок при нажатии"
+      },
+      "headerBarBgColorVar": {
+        "value": "{Common.General.transparent}",
+        "type": "color"
+      },
+      "linkDefaultVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Псевдоссылки"
+      },
+      "linkHoverVar": {
+        "value": "{Common.Brand.brand5}",
+        "type": "color",
+        "description": "Псевдоссылки при наведении"
+      },
+      "linkTouchVar": {
+        "value": "{Common.Brand.brand6}",
+        "type": "color",
+        "description": "Псевдоссылки при нажатии"
+      },
+      "sidebarBgColorVar": {
+        "value": "{Common.General.mist80}",
+        "type": "color",
+        "description": "Фон сайдбара"
+      },
+      "sidebarItemBgColorActiveHoverVar": {
+        "value": "{Common.Brand.brand5}",
+        "type": "color",
+        "description": "Фон активного пункта сайдбара при наведении"
+      },
+      "sidebarItemBgColorActiveTouchVar": {
+        "value": "{Common.Brand.brand6}",
+        "type": "color",
+        "description": "Фон активного пункта сайдбара при нажатии"
+      },
+      "sidebarItemBgColorActiveVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Кликабельные элементы: фон активного пункта сайдбара"
+      },
+      "sidebarItemBgColorHoverVar": {
+        "value": "{Common.General.transparent}",
+        "type": "color",
+        "description": "Фон пункта сайдбара при наведении"
+      },
+      "sidebarItemBgColorTouchVar": {
+        "value": "{Common.General.transparent}",
+        "type": "color",
+        "description": "Фон пункта сайдбара при нажатии"
+      },
+      "sidebarItemContentColorActiveHoverVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Иконка и текст активного пункта сайдбара при наведении"
+      },
+      "sidebarItemContentColorActiveTouchVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Иконка и текст активного пункта сайдбара при нажатии"
+      },
+      "sidebarItemContentColorActiveVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Кликабельные элементы: текст и иконка пункта сайдбара"
+      },
+      "sidebarItemContentColorDefaultVar": {
+        "value": "{Common.General.white}",
+        "type": "color",
+        "description": "Иконка и текст пункта сайдбара, заголовок страницы первичной настройки интеграции с CRM"
+      },
+      "sidebarItemContentColorHoverVar": {
+        "value": "{Common.Brand.brand5}",
+        "type": "color",
+        "description": "Иконка и текст пункта сайдбара при наведении"
+      },
+      "sidebarItemContentColorTouchVar": {
+        "value": "{Common.Brand.brand6}",
+        "type": "color",
+        "description": "Иконка и текст пункта сайдбара при нажатии"
+      },
+      "tabPrimaryContentColorHoverVar": {
+        "value": "{Common.Brand.brand5}",
+        "type": "color",
+        "description": "Иконка и текст вкладки, подчеркивание активной вкладки при наведении"
+      },
+      "tabPrimaryContentColorTouchVar": {
+        "value": "{Common.Brand.brand6}",
+        "type": "color",
+        "description": "Иконка и текст вкладки, подчеркивание активной вкладки при нажатии"
+      },
+      "tabPrimaryIconColorActiveVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Иконка вкладки"
+      },
+      "tabPrimaryLineColorActiveVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Полоса вкладки"
+      },
+      "tabPrimaryTextColorActiveVar": {
+        "value": "{Common.Brand.brand4}",
+        "type": "color",
+        "description": "Текст вкладки"
+      }
+    },
+    "button-text": {
+      "value": {
+        "fontFamily": "{Special.btnFontFamily}",
+        "fontWeight": "{Special.btnFontWeight}",
+        "lineHeight": "{Special.btnLineHeight}",
+        "fontSize": "{Special.btnFontSize}",
+        "letterSpacing": "{Special.btnLetterSpacing}",
+        "paragraphSpacing": "{Special.btnParagraphSpacing}",
+        "textCase": "$Special.btnTextTransform",
+        "textDecoration": "$Special.btnTextDecoration"
+      },
+      "type": "typography"
+    },
+    "Special": {
+      "badgeBorderRadius": {
+        "value": "{Common.commonSBorderRadius}",
+        "type": "borderRadius"
+      },
+      "badgeFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "badgeFontSize": {
+        "value": "8px",
+        "type": "fontSizes"
+      },
+      "badgeFontWeight": {
+        "value": "{Common.roboto700}",
+        "type": "fontWeights"
+      },
+      "badgeLetterSpacing": {
+        "value": "{Common.letterSpacingWide}",
+        "type": "letterSpacing"
+      },
+      "badgeLineHeight": {
+        "value": "8px",
+        "type": "lineHeights"
+      },
+      "badgePaddingHorizontal": {
+        "value": "{Common.commonMarginS}",
+        "type": "spacing",
+        "description": "Внутренний отступ в бейджах"
+      },
+      "badgeParagraphSpacing": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "paragraphSpacing"
+      },
+      "badgeTextTransform": {
+        "value": "{Common.textCaseUppercase}",
+        "type": "textCase"
+      },
+      "btnBorderRadius": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "btnFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "btnFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "btnFontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "btnLetterSpacing": {
+        "value": "{Common.letterSpacingNormal}",
+        "type": "letterSpacing"
+      },
+      "btnLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "btnParagraphSpacing": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "paragraphSpacing"
+      },
+      "btnRatingBorderRadius": {
+        "value": "{Special.btnBorderRadius}",
+        "type": "borderRadius",
+        "description": "Скругления кнопки шкалы оценки"
+      },
+      "btnTextDecoration": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "textDecoration"
+      },
+      "btnTextTransform": {
+        "value": "{Common.textCaseNone}",
+        "type": "textCase"
+      },
+      "calendarCell": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "calendarWeekSelectorBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "cardBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "cardsBlockMarginHorizontal": {
+        "value": "{Common.commonMarginL}",
+        "type": "spacing",
+        "description": "Горизонтальный отступ для блока с карточками."
+      },
+      "cardsBlockMarginVertical": {
+        "value": "{marginBase}*6",
+        "type": "spacing",
+        "description": "Вертикальный отступ для блока с карточками."
+      },
+      "cardsMargin": {
+        "value": "{Common.commonMarginL}",
+        "type": "spacing",
+        "description": "Отступы между карточками."
+      },
+      "checkboxBorderRadius": {
+        "value": "{Common.commonSBorderRadius}",
+        "type": "borderRadius"
+      },
+      "contentWidthMin": {
+        "value": "{Common.commonWidthM}",
+        "type": "sizing",
+        "description": "Минимальная ширина контентной области."
+      },
+      "crmTextLFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies",
+        "description": "{draft}"
+      },
+      "crmTextLFontSize": {
+        "value": "28px",
+        "type": "fontSizes",
+        "description": "{draft}"
+      },
+      "crmTextLFontWeight": {
+        "value": "{Common.roboto900}",
+        "type": "fontWeights",
+        "description": "{draft}"
+      },
+      "crmTextLLineHeight": {
+        "value": "33px",
+        "type": "lineHeights",
+        "description": "{draft}"
+      },
+      "crmTextLParagraphSpacing": {
+        "value": "{Common.paragraphSpacing2}",
+        "type": "paragraphSpacing",
+        "description": "{draft}"
+      },
+      "crmTextMFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies",
+        "description": "{draft}"
+      },
+      "crmTextMFontSize": {
+        "value": "22px",
+        "type": "fontSizes",
+        "description": "{draft}"
+      },
+      "crmTextMFontWeight": {
+        "value": "{Common.roboto900}",
+        "type": "fontWeights",
+        "description": "{draft}"
+      },
+      "crmTextMLineHeight": {
+        "value": "26px",
+        "type": "lineHeights",
+        "description": "{draft}"
+      },
+      "crmTextMParagraphSpacing": {
+        "value": "{Common.paragraphSpacing2}",
+        "type": "paragraphSpacing",
+        "description": "{draft}"
+      },
+      "groupsListInfoBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "h1FontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "h1FontSize": {
+        "value": "32px",
+        "type": "fontSizes"
+      },
+      "h1FontWeight": {
+        "value": "{Common.roboto700}",
+        "type": "fontWeights"
+      },
+      "h1LineHeight": {
+        "value": "40px",
+        "type": "lineHeights"
+      },
+      "h1ParagraphSpacing": {
+        "value": "{Common.paragraphSpacing24}",
+        "type": "paragraphSpacing"
+      },
+      "h2FontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "h2FontSize": {
+        "value": "24px",
+        "type": "fontSizes"
+      },
+      "h2FontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "h2LineHeight": {
+        "value": "32px",
+        "type": "lineHeights"
+      },
+      "h2ParagraphSpacing": {
+        "value": "{Common.paragraphSpacing16}",
+        "type": "paragraphSpacing"
+      },
+      "h3FontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "h3FontSize": {
+        "value": "18px",
+        "type": "fontSizes"
+      },
+      "h3FontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "h3LineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "h3ParagraphSpacing": {
+        "value": "{Common.paragraphSpacing16}",
+        "type": "paragraphSpacing"
+      },
+      "headerItemsMargin": {
+        "value": "{marginBase}*4",
+        "type": "spacing",
+        "description": "Тест. Отступы между табами в меню."
+      },
+      "highlightBorderRadius": {
+        "value": "{Common.commonSBorderRadius}",
+        "type": "borderRadius"
+      },
+      "inputBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "inputMediumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "inputMediumFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "inputMediumFontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "inputMediumLineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "inputMediumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing16}",
+        "type": "paragraphSpacing"
+      },
+      "inputRegularFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "inputRegularFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "inputRegularFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "inputRegularLineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "inputRegularNumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "inputRegularNumFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "inputRegularNumFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "inputRegularNumLetterSpacing": {
+        "value": "normal",
+        "type": "letterSpacing"
+      },
+      "inputRegularNumLineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "inputRegularNumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing16}",
+        "type": "paragraphSpacing"
+      },
+      "inputRegularParagraphSpacing": {
+        "value": "{Common.paragraphSpacing16}",
+        "type": "paragraphSpacing"
+      },
+      "itlTileBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "ivrBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "listLoadingBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "markBoldFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "markBoldFontSize": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "markBoldFontWeight": {
+        "value": "{Common.roboto700}",
+        "type": "fontWeights"
+      },
+      "markBoldLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "markBoldNumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "markBoldNumFontSize": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "markBoldNumFontWeight": {
+        "value": "{Common.roboto700}",
+        "type": "fontWeights"
+      },
+      "markBoldNumLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "markBoldParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "markFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "markFontSize": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "markFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "markLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "markNoldNumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "markNumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "markNumFontSize": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "markNumFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "markNumLetterSpacing": {
+        "value": "normal",
+        "type": "letterSpacing"
+      },
+      "markNumLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "markNumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "markParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "menuFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "menuFontSize": {
+        "value": "12px",
+        "type": "fontSizes"
+      },
+      "menuFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "menuLetterSpacing": {
+        "value": "{Common.letterSpacingNormal}",
+        "type": "letterSpacing"
+      },
+      "menuLineHeight": {
+        "value": "14px",
+        "type": "lineHeights"
+      },
+      "menuParagraphSpacing": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "paragraphSpacing"
+      },
+      "menuTextDecoration": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "textDecoration"
+      },
+      "menuTextTransform": {
+        "value": "{Common.textCaseNone}",
+        "type": "textCase"
+      },
+      "menuWideFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "menuWideFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "menuWideFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "menuWideLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "musicBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "notificatorBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "optionInfoBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "pageDescriptionBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "paginationBorderRadius": {
+        "value": "{Common.commonMBorderRadius}",
+        "type": "borderRadius"
+      },
+      "paginationBorderRadiusLeft": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "paginationBorderRadiusMiddle": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "paginationBorderRadiusRight": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "paginationFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "paginationFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "paginationFontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "paginationLineHeight": {
+        "value": "10px",
+        "type": "lineHeights"
+      },
+      "paginationMargin": {
+        "value": "8px",
+        "type": "spacing"
+      },
+      "paginationPadding": {
+        "value": "{Special.paginationMargin}",
+        "type": "spacing"
+      },
+      "paginationParagraphSpacing": {
+        "value": "{Common.paragraphSpacingNone}",
+        "type": "paragraphSpacing"
+      },
+      "paginationRaitingBorderRadius": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "pBoldFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "pBoldFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "pBoldFontWeight": {
+        "value": "{Common.roboto700}",
+        "type": "fontWeights"
+      },
+      "pBoldLineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "pBoldParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "pFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "pFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "pFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "playerModalBorderRadius": {
+        "value": "{Common.commonXXXLBorderRadius}",
+        "type": "borderRadius"
+      },
+      "pLineHeight": {
+        "value": "24px",
+        "type": "lineHeights"
+      },
+      "popupBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "popupInfoSectionBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "pParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "sectionBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "sectionBorderRadiusPinned": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius",
+        "description": "Скругление липкого блока в закрепленном состоянии"
+      },
+      "sidebarBorderRadius": {
+        "value": "{Common.commonNoBorderRadius} {Common.commonNoBorderRadius} {Common.commonNoBorderRadius} {Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "sidebarItemBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "sidebarItemMargin": {
+        "value": "{Common.commonMarginNone}",
+        "type": "spacing"
+      },
+      "smallFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "smallFontSize": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "smallFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "smallLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "smallParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "smsCardBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "tabBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "tabDividerBorderRadius": {
+        "value": "1px",
+        "type": "borderRadius",
+        "description": "Радиус скругления для линии внутри компонента таба"
+      },
+      "tableCellFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "tableCellFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "tableCellFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "tableCellLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "tableCellNumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "tableCellNumFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "tableCellNumFontWeight": {
+        "value": "{Common.roboto400}",
+        "type": "fontWeights"
+      },
+      "tableCellNumLetterSpacing": {
+        "value": "normal",
+        "type": "letterSpacing",
+        "description": "Межсимвольный интервал для текста ячеек с числовыми значениями"
+      },
+      "tableCellNumLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "tableCellNumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "tableCellParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "tableHeaderFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "tableHeaderFontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "tableHeaderLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "tableHeaderNumFontFamily": {
+        "value": "{Common.fontFamilyRoboto}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderNumFontSize": {
+        "value": "14px",
+        "type": "fontSizes"
+      },
+      "tableHeaderNumFontWeight": {
+        "value": "{Common.roboto500}",
+        "type": "fontWeights"
+      },
+      "tableHeaderNumLineHeight": {
+        "value": "16px",
+        "type": "lineHeights"
+      },
+      "tableHeaderNumParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "tableHeaderParagraphSpacing": {
+        "value": "{Common.paragraphSpacing8}",
+        "type": "paragraphSpacing"
+      },
+      "tabPaddingLeft": {
+        "value": "{Common.commonMarginL}",
+        "type": "spacing"
+      },
+      "tabPaddingLeftIconLeft": {
+        "value": "{Common.commonMarginM}",
+        "type": "spacing"
+      },
+      "tabPaddingRight": {
+        "value": "{Common.commonMarginL}",
+        "type": "spacing"
+      },
+      "tabPaddingTopAndBottom": {
+        "value": "24px",
+        "type": "spacing",
+        "description": "Внутренние отступы по вертикали в табе в верхнем меню"
+      },
+      "tabSecondaryMargin": {
+        "value": "{Common.commonMarginNone}",
+        "type": "spacing",
+        "description": "Отступ между кнопками переключателя"
+      },
+      "telnumsSliderButtonBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "timepickerArrowsBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      },
+      "titleBorderRadius": {
+        "value": "{baseBorderRadius}*8",
+        "type": "borderRadius"
+      },
+      "toolbarNumbersNoSimDividerCornerPaddingLeft": {
+        "value": "140px",
+        "type": "spacing"
+      },
+      "tooltipArrowBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius",
+        "description": "Радиус скругления уголка контекстной подсказки."
+      },
+      "tooltipBorderRadius": {
+        "value": "{Common.commonNoBorderRadius}",
+        "type": "borderRadius"
+      }
+    },
+    "SpecialArmenian": {
+      "badgeFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "badgeFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "h3FontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "h3FontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "inputRegularFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "inputRegularFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "markFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "markFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "menuFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "menuFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "menuWideFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "menuWideFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "pBoldFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "pBoldFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "pFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "pFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "tableCellFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "tableCellFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderFontFamily": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderFontFamilyArmenian": {
+        "value": "{Common.fontFamilyNotoSansArmenian}",
+        "type": "fontFamilies"
+      }
+    },
+    "SpecialGeorgian": {
+      "badgeFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "badgeFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "h3FontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "h3FontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "inputRegularFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "inputRegularFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "markFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "markFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "menuFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "menuFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "menuWideFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "menuWideFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "pBoldFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "pBoldFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "pFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "pFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "tableCellFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "tableCellFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderFontFamily": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      },
+      "tableHeaderFontFamilyGeorgian": {
+        "value": "{Common.fontFamilyNotoSansGeorgian}",
+        "type": "fontFamilies"
+      }
+    },
+    "Component common": {
+      "Autocaller": {
+        "statisticsAutocallerTimezoneCallRestricted": {
+          "value": "#AD4CBE",
+          "type": "color"
+        },
+        "statisticsAutocallerTimezoneIncoming": {
+          "value": "#FFA718",
+          "type": "color"
+        },
+        "statisticsAutocallerTimezoneInProcessing": {
+          "value": "#38A8FA",
+          "type": "color"
+        },
+        "statisticsAutocallerTimezoneLimitIsExceeded": {
+          "value": "#00B5B5",
+          "type": "color"
+        },
+        "statisticsAutocallerTimezoneSuccess": {
+          "value": "#8CBB26",
+          "type": "color"
+        },
+        "statisticsAutocallerTimezoneWasNotCalls": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        }
+      },
+      "Call": {
+        "callEndingColor": {
+          "value": "#E5E5E5",
+          "type": "color"
+        },
+        "callHoldColor": {
+          "value": "#E5E5E5",
+          "type": "color"
+        },
+        "callIncomingColor": {
+          "value": "#65D868",
+          "type": "color"
+        },
+        "callIncomingColorC": {
+          "value": "#E5F6D7",
+          "type": "color",
+          "description": "Цвет-компаньон для входящих"
+        },
+        "callIncomingColorHover": {
+          "value": "#91d65a",
+          "type": "color"
+        },
+        "callMissedColor": {
+          "value": "#FF4865",
+          "type": "color"
+        },
+        "callMissedColorC": {
+          "value": "#FFE2E5",
+          "type": "color",
+          "description": "Цвет-компаньон для пропущенных"
+        },
+        "callMissedColorHover": {
+          "value": "#f88592",
+          "type": "color"
+        },
+        "callOutgoingColor": {
+          "value": "#5786DF",
+          "type": "color"
+        },
+        "callOutgoingColorC": {
+          "value": "#DEF0FD",
+          "type": "color",
+          "description": "Цвет-компаньон для исходящих"
+        },
+        "callOutgoingColorHover": {
+          "value": "#75bdf1",
+          "type": "color"
+        },
+        "callPromptedByMeColor": {
+          "value": "#5AE95E",
+          "type": "color"
+        },
+        "callPromptedColor": {
+          "value": "#5AE95E",
+          "type": "color"
+        },
+        "didNotGetTrough": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "didNotGetTroughC": {
+          "value": "#ECECEC",
+          "type": "color",
+          "description": "Цвет-компаньон для не перезвонили"
+        }
+      },
+      "Charts": {
+        "chart1c": {
+          "value": "#F3FAE6",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart2c": {
+          "value": "#FFF3E0",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart3c": {
+          "value": "#E1F2FE",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart4c": {
+          "value": "#F5E9F7",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart5c": {
+          "value": "#E0FFFF",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart6c": {
+          "value": "#E8EBF7",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart7c": {
+          "value": "#F2EFED",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart8c": {
+          "value": "#E0FFE9",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart9c": {
+          "value": "#F0F0F0",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по одному номеру, а также всех подобных графиков."
+        },
+        "chart10c": {
+          "value": "#F0F0F0",
+          "type": "color",
+          "description": "Цвет заливки линейного графика в отчете по всем номерам сразу, а также всех подобных графиков."
+        }
+      },
+      "Critical": {
+        "criticalDefault": {
+          "value": "{Common.General.critical}",
+          "type": "color"
+        },
+        "criticalHover": {
+          "value": "#F62434",
+          "type": "color"
+        },
+        "criticalTouch": {
+          "value": "#AB0714",
+          "type": "color"
+        }
+      },
+      "Fill": {
+        "bgCardsColor": {
+          "value": "{Common.General.white}",
+          "type": "color",
+          "description": "Фон под карточками. "
+        },
+        "bgColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "bgColorAuthPage": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "bgColorHover": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "bgColorLoadingPage": {
+          "value": "{Component common.Fill.bgColorAuthPage}",
+          "type": "color",
+          "description": "Фон страницы при загрузке"
+        },
+        "bgColorSemilight": {
+          "value": "{Common.General.mist10}",
+          "type": "color",
+          "description": "Фон контекстных подсказок и кнопок редактирования рабочих часов при нажатии"
+        },
+        "emotional": {
+          "value": "#FFA717",
+          "type": "color"
+        },
+        "graphicsColorBg": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "graphicsColorGray": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "graphicsColorHighContrast": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "graphicsColorInverted": {
+          "value": "{Common.General.white}",
+          "type": "color",
+          "description": "Для белых иконок и иллюстраций"
+        },
+        "graphicsColorLive": {
+          "value": "#FF5A25",
+          "type": "color"
+        },
+        "graphicsColorLowContrast": {
+          "value": "{Common.General.mist10}",
+          "type": "color"
+        },
+        "graphicsColorSemilowContrast": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "highLightBgColor": {
+          "value": "rgba({Component variables.linkDefaultVar}, 0.2)",
+          "type": "color"
+        },
+        "intro": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "live": {
+          "value": "#FF5A25",
+          "type": "color"
+        },
+        "overlayColor": {
+          "value": "rgba({Common.General.mist80}, 0.9)",
+          "type": "color"
+        },
+        "pageBg": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "popupOverlayBgColor": {
+          "value": "rgba({Common.General.mist80}, 0.7)",
+          "type": "color",
+          "description": "Фон всплывающего окна"
+        },
+        "skeletonColorBg": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "smsCardBgColor": {
+          "value": "{Common.General.mist10}",
+          "type": "color",
+          "description": "Фон активной смс"
+        }
+      },
+      "Print": {
+        "dayOffColorBW": {
+          "value": "#646464",
+          "type": "color",
+          "description": "Цвет текста выходного дня в графике за неделю в отчете для чб печати"
+        },
+        "numberBw1": {
+          "value": "#4D4D4D",
+          "type": "color",
+          "description": "Цвет номера с наибольшим количеством входящих в отчете по номерам для чб печати"
+        },
+        "numberBw2": {
+          "value": "#737373",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw3": {
+          "value": "#999999",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw4": {
+          "value": "#A6A6A6",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw5": {
+          "value": "#B3B3B3",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw6": {
+          "value": "#BFBFBF",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw7": {
+          "value": "#CCCCCC",
+          "type": "color",
+          "description": "Цвет номера в отчете по номерам для чб печати"
+        },
+        "numberBw8": {
+          "value": "#D9D9D9",
+          "type": "color",
+          "description": "Цвет номера с наименьшим колдичеством звонков в отчете по номерам для чб печати"
+        },
+        "numberBwOthers": {
+          "value": "#E6E6E6",
+          "type": "color",
+          "description": "Цвет сегмента остальных номеров в диаграмме отчета по номерам для чб печати"
+        },
+        "numberBwTotal": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Цвет линии \"Всего\" в графике отчета по номерам для чб печати"
+        },
+        "printColorBlack": {
+          "value": "#000000",
+          "type": "color",
+          "description": "Черный цвет в чб печати"
+        },
+        "printColorGrey64": {
+          "value": "#646464",
+          "type": "color",
+          "description": "{draft} Темно-серый цвет для печати"
+        }
+      },
+      "Status": {
+        "bad": {
+          "value": "#ff8718",
+          "type": "color"
+        },
+        "errorColor": {
+          "value": "{Common.General.critical}",
+          "type": "color"
+        },
+        "freeColor": {
+          "value": "#38A8FA",
+          "type": "color"
+        },
+        "good": {
+          "value": "#98ca2f",
+          "type": "color"
+        },
+        "noRegColor": {
+          "value": "#d5ddeb",
+          "type": "color"
+        },
+        "successColor": {
+          "value": "#3abc31",
+          "type": "color"
+        },
+        "talkingColor": {
+          "value": "#485BBF",
+          "type": "color"
+        },
+        "warningColor": {
+          "value": "#FF6B00",
+          "type": "color"
+        }
+      },
+      "Telephone numbers": {
+        "numBlue": {
+          "value": "#485bbf",
+          "type": "color",
+          "description": "Цвета номеров в статистике по номерам."
+        },
+        "numBrown": {
+          "value": "#8b7167",
+          "type": "color"
+        },
+        "numGreen": {
+          "value": "#009028",
+          "type": "color"
+        }
+      },
+      "Text": {
+        "dayOffColor": {
+          "value": "{Component common.Critical.criticalHover}",
+          "type": "color",
+          "description": "Выходные дни"
+        },
+        "textColorError": {
+          "value": "{Common.General.critical}",
+          "type": "color"
+        },
+        "textColorGray": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "textColorHighContrast": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "textColorInverted": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        }
+      },
+      "Unviewed": {
+        "unviewedDefault": {
+          "value": "{Common.Brand.brand1}",
+          "type": "color",
+          "description": "Непросмотренный контент: уведомления, звонки и т. п."
+        }
+      }
+    },
+    "Component special": {
+      "Badge": {
+        "badgeAlphaColor": {
+          "value": "#69ba63",
+          "type": "color"
+        },
+        "badgeCRMColor": {
+          "value": "{Common.General.mist10}",
+          "type": "color"
+        },
+        "badgeExtra": {
+          "value": "{Common.General.mist10}",
+          "type": "color",
+          "description": "Бейджики с вложенностью"
+        },
+        "badgeGradeColor": {
+          "value": "#DF9CFF",
+          "type": "color"
+        },
+        "badgeSales": {
+          "value": "#5AE95E",
+          "type": "color"
+        }
+      },
+      "Buttons": {
+        "bgTableLinePlayerColorActive": {
+          "value": "{Component variables.activeClickableVar}",
+          "type": "color"
+        },
+        "bgTableLinePlayerColorActiveHover": {
+          "value": "{Common.Brand.brand5}",
+          "type": "color"
+        },
+        "bgTableLinePlayerColorActiveTouch": {
+          "value": "{Common.Brand.brand6}",
+          "type": "color"
+        },
+        "btnCountBgColor": {
+          "value": "{Common.General.transparent}",
+          "type": "color",
+          "description": "Фон кнопки количества"
+        },
+        "btnCountBgColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "btnCountBgColorHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "btnCountBgColorTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "btnCountColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "btnCountColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color",
+          "description": "Задизейбленная кнопка количества"
+        },
+        "btnCountColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "btnCountColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "btnPrimaryBgColorDefault": {
+          "value": "{Component variables.btnPrimaryBgColorDefaultVar}",
+          "type": "color"
+        },
+        "btnPrimaryBgColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "btnPrimaryBgColorHover": {
+          "value": "{Component variables.btnPrimaryBgColorHoverVar}",
+          "type": "color"
+        },
+        "btnPrimaryBgColorLoading": {
+          "value": "{Component variables.btnPrimaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnPrimaryBgColorTouch": {
+          "value": "{Component variables.btnPrimaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnPrimaryBorderColorLoading": {
+          "value": "{Component variables.btnPrimaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnPrimaryTextColorDefault": {
+          "value": "{Component variables.btnPrimaryTextColorDefaultVar}",
+          "type": "color"
+        },
+        "btnPrimaryTextColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "btnPrimaryTextColorHover": {
+          "value": "{Component variables.btnPrimaryTextColorHoverVar}",
+          "type": "color"
+        },
+        "btnPrimaryTextColorTouch": {
+          "value": "{Component variables.btnPrimaryTextColorTouchVar}",
+          "type": "color"
+        },
+        "btnRatingBgColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color",
+          "description": "Фон активной кнопки рейтинга"
+        },
+        "btnRatingBgColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color",
+          "description": "Фон кнопки рейтинга"
+        },
+        "btnRatingBgColorHover": {
+          "value": "{Common.General.mist5}",
+          "type": "color",
+          "description": "Фон кнопки рейтинга при наведении"
+        },
+        "btnRatingBgColorTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color",
+          "description": "Фон кнопки рейтинга при нажатии"
+        },
+        "btnRatingBorderColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color",
+          "description": "Обводка активной кнопки рейтинга"
+        },
+        "btnRatingBorderColorDefault": {
+          "value": "{Common.General.mist15}",
+          "type": "color",
+          "description": "Обводка кнопки рейтинга"
+        },
+        "btnRatingBorderColorHover": {
+          "value": "{Common.General.mist15}",
+          "type": "color",
+          "description": "Обводка кнопки рейтинга при наведении"
+        },
+        "btnRatingBorderColorTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color",
+          "description": "Обводка кнопки рейтинга при нажатии"
+        },
+        "btnRatingTextColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color",
+          "description": "Текст активной кнопки рейтинга"
+        },
+        "btnRatingTextColorDefault": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color",
+          "description": "Текст кнопки рейтинга"
+        },
+        "btnRatingTextColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color",
+          "description": "Текст кнопки рейтинга при наведении"
+        },
+        "btnRatingTextColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color",
+          "description": "Текст кнопки рейтинга при нажатии"
+        },
+        "btnSecondaryBgColorDefault": {
+          "value": "{Component variables.btnSecondaryBgColorDefaultVar}",
+          "type": "color"
+        },
+        "btnSecondaryBgColorDisabled": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "btnSecondaryBgColorHover": {
+          "value": "{Component variables.btnSecondaryBgColorHoverVar}",
+          "type": "color"
+        },
+        "btnSecondaryBgColorLoading": {
+          "value": "{Component variables.btnSecondaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnSecondaryBgColorTouch": {
+          "value": "{Component variables.btnSecondaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnSecondaryBorderColorDefault": {
+          "value": "{Component variables.btnSecondaryBorderColorDefaultVar}",
+          "type": "color"
+        },
+        "btnSecondaryBorderColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "btnSecondaryBorderColorHover": {
+          "value": "{Component variables.btnSecondaryBorderColorHoverVar}",
+          "type": "color"
+        },
+        "btnSecondaryBorderColorLoading": {
+          "value": "{Component variables.btnSecondaryBgColorTouchVar}",
+          "type": "color"
+        },
+        "btnSecondaryBorderColorTouch": {
+          "value": "{Component variables.btnSecondaryBorderColorTouchVar}",
+          "type": "color"
+        },
+        "btnSecondaryIconColorDefault": {
+          "value": "{Component variables.btnSecondaryContentColorDefaultVar}",
+          "type": "color"
+        },
+        "btnSecondaryIconColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "btnSecondaryIconColorHover": {
+          "value": "{Component variables.btnSecondaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "btnSecondaryIconColorTouch": {
+          "value": "{Component variables.btnSecondaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "btnSecondaryTextColorDefault": {
+          "value": "{Component variables.btnSecondaryContentColorDefaultVar}",
+          "type": "color"
+        },
+        "btnSecondaryTextColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "btnSecondaryTextColorHover": {
+          "value": "{Component variables.btnSecondaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "btnSecondaryTextColorTouch": {
+          "value": "{Component variables.btnSecondaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "cardHeaderColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "cardHeaderColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "cardHeaderColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "iconColorActive": {
+          "value": "{Component variables.linkDefaultVar}",
+          "type": "color"
+        },
+        "iconColorActiveHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "iconColorActiveTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "iconColorDefault": {
+          "value": "{Component common.Fill.graphicsColorHighContrast}",
+          "type": "color"
+        },
+        "iconColorDisabled": {
+          "value": "#9b9b9b",
+          "type": "color"
+        },
+        "iconColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "iconColorInverted": {
+          "value": "{Component common.Fill.graphicsColorInverted}",
+          "type": "color",
+          "description": "Для белой (инвертированной) кнопки-иконки "
+        },
+        "iconColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "iconTableLineColorHover": {
+          "value": "{Component variables.linkDefaultVar}",
+          "type": "color"
+        },
+        "iconTableLinePlayerColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "linkDefault": {
+          "value": "{Component variables.linkDefaultVar}",
+          "type": "color"
+        },
+        "linkDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "linkHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "linkTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "paginationBgColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "paginationBgColorActiveDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "paginationBgColorDefault": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBgColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBgColorHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBgColorTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorActive": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorActiveDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorDefault": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationBorderColorTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "paginationIconColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "paginationIconColorDisabled": {
+          "value": "{Component special.Buttons.linkDisabled}",
+          "type": "color"
+        },
+        "paginationIconColorHover": {
+          "value": "{Component special.Buttons.linkHover}",
+          "type": "color"
+        },
+        "paginationIconColorTouch": {
+          "value": "{Component special.Buttons.linkTouch}",
+          "type": "color"
+        },
+        "paginationTextColorActive": {
+          "value": "{Component common.Text.textColorInverted}",
+          "type": "color"
+        },
+        "paginationTextColorActiveDisabled": {
+          "value": "{Component common.Text.textColorInverted}",
+          "type": "color"
+        },
+        "paginationTextColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "paginationTextColorDisabled": {
+          "value": "{Component special.Buttons.linkDisabled}",
+          "type": "color"
+        },
+        "paginationTextColorHover": {
+          "value": "{Component special.Buttons.linkHover}",
+          "type": "color"
+        },
+        "paginationTextColorTouch": {
+          "value": "{Component special.Buttons.linkTouch}",
+          "type": "color"
+        },
+        "selectorBorderColorError": {
+          "value": "{Component common.Status.errorColor}",
+          "type": "color"
+        },
+        "selectorMarkColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorMarkColorDisabled": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorMarkColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorMarkColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorMarkedBgColorDefault": {
+          "value": "{Common.Brand.brand4}",
+          "type": "color"
+        },
+        "selectorMarkedBgColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "selectorMarkedBgColorHover": {
+          "value": "{Common.Brand.brand5}",
+          "type": "color"
+        },
+        "selectorMarkedBgColorTouch": {
+          "value": "{Common.Brand.brand6}",
+          "type": "color"
+        },
+        "selectorMarkedBorderColorDefault": {
+          "value": "{Component variables.linkDefaultVar}",
+          "type": "color"
+        },
+        "selectorMarkedBorderColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "selectorMarkedBorderColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "selectorMarkedBorderColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "selectorUnmarkedBgColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorUnmarkedBgColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "selectorUnmarkedBgColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorUnmarkedBgColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "selectorUnmarkedBorderColorDefault": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "selectorUnmarkedBorderColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "selectorUnmarkedBorderColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "selectorUnmarkedBorderColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "sliderItemBgColorActive": {
+          "value": "{Component special.Buttons.linkDefault}",
+          "type": "color"
+        },
+        "sliderItemBgColorActiveDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "sliderItemBgColorActiveHover": {
+          "value": "{Component special.Buttons.linkHover}",
+          "type": "color"
+        },
+        "sliderItemBgColorActiveTouch": {
+          "value": "{Component special.Buttons.linkTouch}",
+          "type": "color"
+        },
+        "sliderItemBgColorDefault": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "sliderItemBgColorDefaultHover": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "sliderItemBgColorDefaultTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "sliderItemBgColorDisabled": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "sliderItemTextActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "sliderItemTextActiveDisabled": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "sliderItemTextActiveHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "sliderItemTextActiveTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "sliderItemTextDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "sliderItemTextDefaultHover": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "sliderItemTextDefaultTouch": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "sliderItemTextDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "switchBgColorActive": {
+          "value": "{Component variables.activeClickableVar}",
+          "type": "color"
+        },
+        "switchBgColorActiveHover": {
+          "value": "{Common.Brand.brand5}",
+          "type": "color"
+        },
+        "switchBgColorActiveTouch": {
+          "value": "{Common.Brand.brand6}",
+          "type": "color"
+        },
+        "switchBgColorDefault": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "switchBgColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "switchBgColorHover": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "switchBgColorTouch": {
+          "value": "{Common.Brand.brand6}",
+          "type": "color"
+        },
+        "switchEllipseColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "switchEllipseColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorActiveDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorDisabled": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorHover": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "tabSecondaryBgColorTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorActiveDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorDefault": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorHover": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "tabSecondaryBorderColorTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "tabSecondaryColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "tabSecondaryColorActiveDisabled": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "tabSecondaryColorDefault": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "tabSecondaryColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "tabSecondaryColorHover": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "tabSecondaryColorTouch": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorActiveDisabled": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorDefault": {
+          "value": "{Component common.Fill.graphicsColorHighContrast}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "tabSecondaryIconColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        }
+      },
+      "Calendar": {
+        "calendarDayOffDisabled": {
+          "value": "#E4A1A8",
+          "type": "color"
+        },
+        "calendarDayOfWeeks": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "calendarMonthNameDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "calendarMonthNameHover": {
+          "value": "{Component special.Buttons.linkHover}",
+          "type": "color"
+        },
+        "calendarMonthNameTouch": {
+          "value": "{Component special.Buttons.linkTouch}",
+          "type": "color"
+        },
+        "calendarWeekCellDefault": {
+          "value": "{Common.General.mist10}",
+          "type": "color"
+        }
+      },
+      "Counter": {
+        "counterBgColor": {
+          "value": "{Common.Brand.brand4}",
+          "type": "color"
+        },
+        "counterColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        }
+      },
+      "Dividers": {
+        "divider": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "dividerAdditional": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        }
+      },
+      "Fill": {
+        "cardBgColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "cardBgColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "cardBgColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "cardPlateBgColorDefault": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "cardPlateBgColorHover": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        }
+      },
+      "Hourly Load": {
+        "statisticsHourlyBgColorFuture": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "statisticsHourlyBgColorHigh": {
+          "value": "#FEB67B",
+          "type": "color"
+        },
+        "statisticsHourlyBgColorMiddle": {
+          "value": "#FFD2AE",
+          "type": "color"
+        },
+        "statisticsHourlyBgColorMinimum": {
+          "value": "#FFE9D6",
+          "type": "color"
+        },
+        "statisticsHourlyBgColorNoData": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "statisticsHourlyBgMaximum": {
+          "value": "#FE9239",
+          "type": "color"
+        },
+        "statisticsHourlyDivider": {
+          "value": "{Common.General.mist10}",
+          "type": "color"
+        }
+      },
+      "Inputs": {
+        "comboboxItemAdditionalTextColor": {
+          "value": "{Component common.Text.textColorGray}",
+          "type": "color"
+        },
+        "comboboxItemIconColor": {
+          "value": "{Component variables.linkDefaultVar}",
+          "type": "color"
+        },
+        "comboboxItemTextColorDefault": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "comboboxItemTextColorHover": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "comboboxItemTextColorTouch": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "dropdownBorderColor": {
+          "value": "{Component special.Inputs.inputBorderColorDefault}",
+          "type": "color"
+        },
+        "inputBgColorActive": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "inputBgColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "inputBgColorDisabled": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "inputBgColorError": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "inputBgColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "inputBgColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "inputBorderColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "inputBorderColorDefault": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "inputBorderColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "inputBorderColorError": {
+          "value": "{Common.General.critical}",
+          "type": "color"
+        },
+        "inputBorderColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "inputBorderColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "inputIconAdditional": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "inputIconColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "inputIconColorDisabled": {
+          "value": "{Common.General.mist30}",
+          "type": "color"
+        },
+        "inputIconColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "inputIconColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        },
+        "inputPlaceholderText": {
+          "value": "{Component common.Text.textColorGray}",
+          "type": "color"
+        },
+        "inputPlaceholderTextDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "inputText": {
+          "value": "{Component common.Text.textColorHighContrast}",
+          "type": "color"
+        },
+        "inputTextActive": {
+          "value": "{Component common.Text.textColorGray}",
+          "type": "color"
+        },
+        "inputTextDisabled": {
+          "value": "{Component common.Text.textColorGray}",
+          "type": "color"
+        }
+      },
+      "List": {
+        "listMarkerBgColor": {
+          "value": "{Component variables.btnPrimaryBgColorDefaultVar}",
+          "type": "color"
+        },
+        "listMarkerColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        }
+      },
+      "Marking frame": {
+        "markingFrameBorderColor": {
+          "value": "#FF6B00",
+          "type": "color",
+          "description": "{draft} Рамка-выделитель для использования в скриншотах"
+        }
+      },
+      "Monitoring": {
+        "qualityBgColorBad": {
+          "value": "{Component common.Status.bad}",
+          "type": "color"
+        },
+        "qualityBgColorGood": {
+          "value": "{Component common.Status.good}",
+          "type": "color"
+        },
+        "qualityBgColorMiddle": {
+          "value": "{Component common.Status.warningColor}",
+          "type": "color"
+        },
+        "qualityBgColorNone": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        }
+      },
+      "Navigation": {
+        "breadCrumbColorActive": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "breadCrumbColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "headerBarBgColor": {
+          "value": "{Component variables.headerBarBgColorVar}",
+          "type": "color"
+        },
+        "initialCrmSetupH1Color": {
+          "value": "{Component variables.sidebarItemContentColorDefaultVar}",
+          "type": "color"
+        },
+        "initialCrmSetupHeaderBgColor": {
+          "value": "{Component variables.sidebarBgColorVar}",
+          "type": "color"
+        },
+        "sidebarBgColor": {
+          "value": "{Component variables.sidebarBgColorVar}",
+          "type": "color"
+        },
+        "sidebarIconColorActive": {
+          "value": "{Component variables.sidebarItemContentColorActiveVar}",
+          "type": "color"
+        },
+        "sidebarIconColorActiveHover": {
+          "value": "{Component variables.sidebarItemContentColorActiveHoverVar}",
+          "type": "color"
+        },
+        "sidebarIconColorActiveTouch": {
+          "value": "{Component variables.sidebarItemContentColorActiveTouchVar}",
+          "type": "color"
+        },
+        "sidebarIconColorDefault": {
+          "value": "{Component variables.sidebarItemContentColorDefaultVar}",
+          "type": "color"
+        },
+        "sidebarIconColorHover": {
+          "value": "{Component variables.sidebarItemContentColorHoverVar}",
+          "type": "color"
+        },
+        "sidebarIconColorTouch": {
+          "value": "{Component variables.sidebarItemContentColorTouchVar}",
+          "type": "color"
+        },
+        "sidebarItemBgColorActive": {
+          "value": "{Component variables.sidebarItemBgColorActiveVar}",
+          "type": "color"
+        },
+        "sidebarItemBgColorActiveHover": {
+          "value": "{Component variables.sidebarItemBgColorActiveHoverVar}",
+          "type": "color"
+        },
+        "sidebarItemBgColorActiveTouch": {
+          "value": "{Component variables.sidebarItemBgColorActiveTouchVar}",
+          "type": "color"
+        },
+        "sidebarItemBgColorDefault": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "sidebarItemBgColorHover": {
+          "value": "{Component variables.sidebarItemBgColorHoverVar}",
+          "type": "color"
+        },
+        "sidebarItemBgColorTouch": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "sidebarTextColorActive": {
+          "value": "{Component variables.sidebarItemContentColorActiveVar}",
+          "type": "color"
+        },
+        "sidebarTextColorActiveHover": {
+          "value": "{Component variables.sidebarItemContentColorActiveHoverVar}",
+          "type": "color"
+        },
+        "sidebarTextColorActiveTouch": {
+          "value": "{Component variables.sidebarItemContentColorActiveTouchVar}",
+          "type": "color"
+        },
+        "sidebarTextColorDefault": {
+          "value": "{Component variables.sidebarItemContentColorDefaultVar}",
+          "type": "color"
+        },
+        "sidebarTextColorHover": {
+          "value": "{Component variables.sidebarItemContentColorHoverVar}",
+          "type": "color"
+        },
+        "sidebarTextColorTouch": {
+          "value": "{Component variables.sidebarItemContentColorTouchVar}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorActive": {
+          "value": "{Component variables.tabPrimaryIconColorActiveVar}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorActiveHover": {
+          "value": "{Component variables.tabPrimaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorActiveTouch": {
+          "value": "{Component variables.tabPrimaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorHover": {
+          "value": "{Component variables.tabPrimaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "tabPrimaryIconColorTouch": {
+          "value": "{Component variables.tabPrimaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorActive": {
+          "value": "{Component variables.activeClickableVar}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorActiveHover": {
+          "value": "{Component variables.tabPrimaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorActiveTouch": {
+          "value": "{Component variables.tabPrimaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorDefault": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "tabPrimaryLineColorTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorActive": {
+          "value": "{Component variables.tabPrimaryTextColorActiveVar}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorActiveHover": {
+          "value": "{Component variables.tabPrimaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorActiveTouch": {
+          "value": "{Component variables.tabPrimaryContentColorTouchVar}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorHover": {
+          "value": "{Component variables.tabPrimaryContentColorHoverVar}",
+          "type": "color"
+        },
+        "tabPrimaryTextColorTouch": {
+          "value": "{Component variables.tabPrimaryContentColorTouchVar}",
+          "type": "color"
+        }
+      },
+      "Notice blocking": {
+        "bgColorNoticeBlocking": {
+          "value": "rgba({Component common.Critical.criticalDefault}, 0.08)",
+          "type": "color",
+          "description": "Цвет оверлея фона уведомления о финансовой блокировке"
+        }
+      },
+      "Option info": {
+        "demoBgColorDefault": {
+          "value": "#6688C8",
+          "type": "color"
+        }
+      },
+      "Package": {
+        "packageBgColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBgColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBgColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBorderColor": {
+          "value": "#D9D9D9",
+          "type": "color"
+        },
+        "packageBorderColorHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "packageBorderColorTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "packageBoughtBgColor": {
+          "value": "{Common.Brand.brand1}",
+          "type": "color"
+        },
+        "packageBoughtBgColorHover": {
+          "value": "{Common.Brand.brand2}",
+          "type": "color"
+        },
+        "packageBoughtBgColorTouch": {
+          "value": "{Common.Brand.brand3}",
+          "type": "color"
+        },
+        "packageBoughtBorderColor": {
+          "value": "#FFFFFF00",
+          "type": "color"
+        },
+        "packageBoughtCheckmarkColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBoughtCheckmarkColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBoughtCheckmarkColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBoughtSettingsColor": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "packageBoughtSettingsColorHover": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "packageBoughtSettingsColorTouch": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "packageBoughtTextColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBoughtTextColorHover": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageBoughtTextColorTouch": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "packageTextColor": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "packageTextColorHover": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "packageTextColorTouch": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "svg1": {
+          "value": "linear-gradient(90deg, rgba(#F0F7FA, 0) 100%, rgba(#F0F7FA, 1) 0%)",
+          "type": "color"
+        },
+        "svg2": {
+          "value": "linear-gradient(90deg, rgba($Common.General.white, 0) 100%, rgba($Common.General.white, 1) 0%)",
+          "type": "color"
+        }
+      },
+      "Player modal": {
+        "playerModalBgColor": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "playerModalColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "playerModalColorDisabled": {
+          "value": "{Component common.Text.textColorGray}",
+          "type": "color"
+        },
+        "playerModalIconColorDefault": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "playerModalIconColorDisabled": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "playerModalIconColorHover": {
+          "value": "{Component variables.linkHoverVar}",
+          "type": "color"
+        },
+        "playerModalIconColorTouch": {
+          "value": "{Component variables.linkTouchVar}",
+          "type": "color"
+        }
+      },
+      "Progress bar": {
+        "loading5": {
+          "value": "{Common.General.mist5}",
+          "type": "color"
+        },
+        "loading10": {
+          "value": "{Common.General.mist15}",
+          "type": "color"
+        },
+        "loadingLoaded": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        },
+        "slider": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color"
+        }
+      },
+      "Rating scale": {
+        "descriptionText": {
+          "value": "{Common.General.mist30}",
+          "type": "color",
+          "description": "Текст описания в шкале оценки"
+        }
+      },
+      "Scroll": {
+        "scrollThumbColorDefault": {
+          "value": "{Common.General.mist30}66",
+          "type": "color"
+        },
+        "scrollThumbColorHover": {
+          "value": "{Common.Brand.brand5}66",
+          "type": "color"
+        },
+        "scrollThumbColorTouch": {
+          "value": "{Common.Brand.brand6}66",
+          "type": "color"
+        },
+        "scrollThumbModalColorDefault": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        }
+      },
+      "SelectableCards": {
+        "selectableCardsBorderActive": {
+          "value": "{Common.Brand.brand4}",
+          "type": "color"
+        },
+        "selectableCardsBorderDefault": {
+          "value": "{Component special.Inputs.inputBorderColorDefault}",
+          "type": "color"
+        },
+        "selectableCardsBorderHover": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        },
+        "selectableCardsBorderTouch": {
+          "value": "{Common.General.transparent}",
+          "type": "color"
+        }
+      },
+      "Spinner": {
+        "spinnerColorHighContrast": {
+          "value": "{Common.General.mist80}",
+          "type": "color"
+        },
+        "spinnerColorInverted": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "spinnerLoadingBtnPrimaryColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "spinnerLoadingBtnSecondaryColor": {
+          "value": "{Common.General.white}",
+          "type": "color"
+        },
+        "spinnerLoadingPageColor": {
+          "value": "{Component variables.activeNonClickableVar}",
+          "type": "color",
+          "description": "Для обозначения процесса загрузки всей страницы либо добавления номера в АТС."
+        }
+      }
+    },
+    "baseBorderRadius": {
+      "value": "2px",
+      "type": "borderRadius"
+    },
+    "shadowElevated": {
+      "value": [
+        {
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "2",
+          "blur": "8",
+          "spread": "0"
+        },
+        {
+          "color": "rgba(0,0,0,0.15)",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "playerModalShadow": {
+      "value": "{shadowNone}",
+      "type": "boxShadow"
+    },
+    "sidebarShadow": {
+      "value": "{shadowNone}",
+      "type": "boxShadow"
+    },
+    "shadowElevatedHeavy": {
+      "value": {
+        "color": "rgba(0,0,0,0.15)",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "10",
+        "blur": "24",
+        "spread": "-5"
+      },
+      "type": "boxShadow"
+    },
+    "marginBase": {
+      "value": "4px",
+      "type": "spacing"
+    },
+    "btnPrimaryShadow": {
+      "value": [
+        {
+          "color": "rgba({Common.Brand.brand1}, 0.25)",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "12",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "btnPrimaryShadowHover": {
+      "value": [
+        {
+          "color": "rgba(184,8,212,0.25)",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "btnSecondaryShadow": {
+      "value": "{shadowNone}",
+      "type": "boxShadow"
+    },
+    "btnSecondaryShadowHover": {
+      "value": [
+        {
+          "color": "rgba(184,8,212,0.25)",
+          "type": "dropShadow",
+          "x": "0",
+          "y": "4",
+          "blur": "16",
+          "spread": "0"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "btnCriticalShadow": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "12",
+        "spread": "0",
+        "color": "rgba({Common.General.critical}, 0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "btnCriticalShadowHover": {
+      "value": {
+        "x": "0",
+        "y": "4",
+        "blur": "16",
+        "spread": "0",
+        "color": "rgba({Component common.Critical.criticalHover}, 0.25)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "switchShadow": {
+      "value": "{shadowNone}",
+      "type": "boxShadow"
+    },
+    "switchCircleShadow": {
+      "value": "{shadowNone}",
+      "type": "boxShadow"
+    },
+    "timepickerArrowShadow": {
+      "value": {
+        "x": "0",
+        "y": "2",
+        "blur": "8",
+        "spread": "0",
+        "color": "rgba({Common.General.black}, 0.15)",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "shadowNone": {
+      "value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{Common.General.transparent}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "sidebarItemBorderWidthActive": {
+      "value": "2",
+      "type": "borderWidth"
+    },
+    "menu-text": {
+      "value": {
+        "fontFamily": "{Special.menuFontFamily}",
+        "fontWeight": "{Special.menuFontWeight}",
+        "lineHeight": "{Special.menuLineHeight}",
+        "fontSize": "{Special.menuFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textCase": "{Special.menuTextTransform}",
+        "textDecoration": "{Special.menuTextDecoration}"
+      },
+      "type": "typography"
+    },
+    "menu-text-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.menuFontFamilyArmenian}",
+        "fontWeight": "{Special.menuFontWeight}",
+        "lineHeight": "{Special.menuLineHeight}",
+        "fontSize": "{Special.menuFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textCase": "{Special.menuTextTransform}",
+        "textDecoration": "{Special.menuTextDecoration}"
+      },
+      "type": "typography"
+    },
+    "menu-text-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.menuFontFamilyGeorgian}",
+        "fontWeight": "{Special.menuFontWeight}",
+        "lineHeight": "{Special.menuLineHeight}",
+        "fontSize": "{Special.menuFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textCase": "{Special.menuTextTransform}",
+        "textDecoration": "{Special.menuTextDecoration}"
+      },
+      "type": "typography"
+    },
+    "menu-wide-text": {
+      "value": {
+        "fontFamily": "{Special.menuWideFontFamily}",
+        "fontWeight": "{Special.menuWideFontWeight}",
+        "lineHeight": "{Special.menuWideLineHeight}",
+        "fontSize": "{Special.menuWideFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textDecoration": "{Special.menuTextDecoration}",
+        "textCase": "{Special.menuTextTransform}"
+      },
+      "type": "typography"
+    },
+    "menu-wide-text-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.menuWideFontFamilyArmenian}",
+        "fontWeight": "{Special.menuWideFontWeight}",
+        "lineHeight": "{Special.menuWideLineHeight}",
+        "fontSize": "{Special.menuWideFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textDecoration": "{Special.menuTextDecoration}",
+        "textCase": "{Special.menuTextTransform}"
+      },
+      "type": "typography"
+    },
+    "menu-wide-text-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.menuWideFontFamilyGeorgian}",
+        "fontWeight": "{Special.menuWideFontWeight}",
+        "lineHeight": "{Special.menuWideLineHeight}",
+        "fontSize": "{Special.menuWideFontSize}",
+        "letterSpacing": "{Special.menuLetterSpacing}",
+        "paragraphSpacing": "{Special.menuParagraphSpacing}",
+        "textDecoration": "{Special.menuTextDecoration}",
+        "textCase": "{Special.menuTextTransform}"
+      },
+      "type": "typography"
+    },
+    "h1": {
+      "value": {
+        "fontFamily": "{Special.h1FontFamily}",
+        "fontWeight": "{Special.h1FontWeight}",
+        "lineHeight": "{Special.h1LineHeight}",
+        "fontSize": "{Special.h1FontSize}",
+        "paragraphSpacing": "{Special.h1ParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "h2": {
+      "value": {
+        "fontFamily": "{Special.h2FontFamily}",
+        "fontWeight": "{Special.h2FontWeight}",
+        "lineHeight": "{Special.h2LineHeight}",
+        "fontSize": "{Special.h2FontSize}",
+        "paragraphSpacing": "{Special.h2ParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "h3": {
+      "value": {
+        "fontFamily": "{Special.h3FontFamily}",
+        "fontWeight": "{Special.h3FontWeight}",
+        "lineHeight": "{Special.h3LineHeight}",
+        "fontSize": "{Special.h3FontSize}",
+        "paragraphSpacing": "{Special.h3ParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "crm-text-m": {
+      "value": {
+        "fontFamily": "{Special.crmTextMFontFamily}",
+        "fontWeight": "{Special.crmTextMFontWeight}",
+        "lineHeight": "{Special.crmTextMLineHeight}",
+        "fontSize": "{Special.crmTextMFontSize}",
+        "paragraphSpacing": "{Special.crmTextMParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "{draft}"
+    },
+    "crm-text-l": {
+      "value": {
+        "fontFamily": "{Special.crmTextLFontFamily}",
+        "fontWeight": "{Special.crmTextLFontWeight}",
+        "lineHeight": "{Special.crmTextLLineHeight}",
+        "fontSize": "{Special.crmTextLFontSize}",
+        "paragraphSpacing": "{Special.crmTextLParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "{draft}"
+    },
+    "h3-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.h3FontFamilyArmenian}",
+        "fontWeight": "{Special.h3FontWeight}",
+        "lineHeight": "{Special.h3LineHeight}",
+        "fontSize": "{Special.h3FontSize}",
+        "paragraphSpacing": "{Special.h3ParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "h3-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.h3FontFamilyGeorgian}",
+        "fontWeight": "{Special.h3FontWeight}",
+        "lineHeight": "{Special.h3LineHeight}",
+        "fontSize": "{Special.h3FontSize}",
+        "paragraphSpacing": "{Special.h3ParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p": {
+      "value": {
+        "fontFamily": "{Special.pFontFamily}",
+        "fontWeight": "{Special.pFontWeight}",
+        "lineHeight": "{Special.pLineHeight}",
+        "fontSize": "{Special.pFontSize}",
+        "paragraphSpacing": "{Special.pParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-cell-p": {
+      "value": {
+        "fontFamily": "{Special.pFontFamily}",
+        "fontWeight": "{Special.pFontWeight}",
+        "lineHeight": "{Special.pLineHeight}",
+        "fontSize": "{Special.pFontSize}",
+        "paragraphSpacing": "{Special.pParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.pFontFamilyArmenian}",
+        "fontWeight": "{Special.pFontWeight}",
+        "lineHeight": "{Special.pLineHeight}",
+        "fontSize": "{Special.pFontSize}",
+        "paragraphSpacing": "{Special.pParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.pFontFamilyGeorgian}",
+        "fontWeight": "{Special.pFontWeight}",
+        "lineHeight": "{Special.pLineHeight}",
+        "fontSize": "{Special.pFontSize}",
+        "paragraphSpacing": "{Special.pParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p-bold": {
+      "value": {
+        "fontFamily": "{Special.pBoldFontFamily}",
+        "fontWeight": "{Special.pBoldFontWeight}",
+        "lineHeight": "{Special.pBoldLineHeight}",
+        "fontSize": "{Special.pBoldFontSize}",
+        "paragraphSpacing": "{Special.pBoldParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p-bold-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.pBoldFontFamilyArmenian}",
+        "fontWeight": "{Special.pBoldFontWeight}",
+        "lineHeight": "{Special.pBoldLineHeight}",
+        "fontSize": "{Special.pBoldFontSize}",
+        "paragraphSpacing": "{Special.pBoldParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "p-bold-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.pBoldFontFamilyGeorgian}",
+        "fontWeight": "{Special.pBoldFontWeight}",
+        "lineHeight": "{Special.pBoldLineHeight}",
+        "fontSize": "{Special.pBoldFontSize}",
+        "paragraphSpacing": "{Special.pBoldParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "mark-text": {
+      "value": {
+        "fontFamily": "{Special.markFontFamily}",
+        "fontWeight": "{Special.markFontWeight}",
+        "lineHeight": "{Special.markLineHeight}",
+        "fontSize": "{Special.markFontSize}",
+        "paragraphSpacing": "{Special.markParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "mark-text-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.markFontFamilyArmenian}",
+        "fontWeight": "{Special.markFontWeight}",
+        "lineHeight": "{Special.markLineHeight}",
+        "fontSize": "{Special.markFontSize}",
+        "paragraphSpacing": "{Special.markParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "mark-text-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.markFontFamilyGeorgian}",
+        "fontWeight": "{Special.markFontWeight}",
+        "lineHeight": "{Special.markLineHeight}",
+        "fontSize": "{Special.markFontSize}",
+        "paragraphSpacing": "{Special.markParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "mark-bold-text": {
+      "value": {
+        "fontFamily": "{Special.markBoldFontFamily}",
+        "fontWeight": "{Special.markBoldFontWeight}",
+        "lineHeight": "{Special.markBoldLineHeight}",
+        "fontSize": "{Special.markBoldFontSize}",
+        "paragraphSpacing": "{Special.markBoldParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "small-text": {
+      "value": {
+        "fontFamily": "{Special.smallFontFamily}",
+        "fontWeight": "{Special.smallFontWeight}",
+        "lineHeight": "{Special.smallLineHeight}",
+        "fontSize": "{Special.smallFontSize}",
+        "paragraphSpacing": "{Special.smallParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-header": {
+      "value": {
+        "fontFamily": "{Special.tableHeaderFontFamily}",
+        "fontWeight": "{Special.tableHeaderFontWeight}",
+        "lineHeight": "{Special.tableHeaderLineHeight}",
+        "fontSize": "{Special.tableHeaderFontSize}",
+        "paragraphSpacing": "{Special.tableHeaderParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-header-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.tableHeaderFontFamilyArmenian}",
+        "fontWeight": "{Special.tableHeaderFontWeight}",
+        "lineHeight": "{Special.tableHeaderLineHeight}",
+        "fontSize": "{Special.tableHeaderFontSize}",
+        "paragraphSpacing": "{Special.tableHeaderParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-header-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.tableHeaderFontFamilyGeorgian}",
+        "fontWeight": "{Special.tableHeaderFontWeight}",
+        "lineHeight": "{Special.tableHeaderLineHeight}",
+        "fontSize": "{Special.tableHeaderFontSize}",
+        "paragraphSpacing": "{Special.tableHeaderParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-cell": {
+      "value": {
+        "fontFamily": "{Special.tableCellFontFamily}",
+        "fontWeight": "{Special.tableCellFontWeight}",
+        "lineHeight": "{Special.tableCellLineHeight}",
+        "fontSize": "{Special.tableCellFontSize}",
+        "paragraphSpacing": "{Special.tableCellParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-cell-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.tableCellFontFamilyArmenian}",
+        "fontWeight": "{Special.tableCellFontWeight}",
+        "lineHeight": "{Special.tableCellLineHeight}",
+        "fontSize": "{Special.tableCellFontSize}",
+        "paragraphSpacing": "{Special.tableCellParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-cell-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.tableCellFontFamilyGeorgian}",
+        "fontWeight": "{Special.tableCellFontWeight}",
+        "lineHeight": "{Special.tableCellLineHeight}",
+        "fontSize": "{Special.tableCellFontSize}",
+        "paragraphSpacing": "{Special.tableCellParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "badge-text": {
+      "value": {
+        "fontFamily": "{Special.badgeFontFamily}",
+        "fontWeight": "{Special.badgeFontWeight}",
+        "lineHeight": "{Special.badgeLineHeight}",
+        "fontSize": "{Special.badgeFontSize}",
+        "letterSpacing": "{Special.badgeLetterSpacing}",
+        "paragraphSpacing": "{Special.badgeParagraphSpacing}",
+        "textCase": "{Special.badgeTextTransform}"
+      },
+      "type": "typography"
+    },
+    "badge-text-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.badgeFontFamilyArmenian}",
+        "fontWeight": "{Special.badgeFontWeight}",
+        "lineHeight": "{Special.badgeLineHeight}",
+        "fontSize": "{Special.badgeFontSize}",
+        "letterSpacing": "{Special.badgeLetterSpacing}",
+        "paragraphSpacing": "{Special.badgeParagraphSpacing}",
+        "textCase": "{Special.badgeTextTransform}"
+      },
+      "type": "typography"
+    },
+    "badge-text-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.badgeFontFamilyGeorgian}",
+        "fontWeight": "{Special.badgeFontWeight}",
+        "lineHeight": "{Special.badgeLineHeight}",
+        "fontSize": "{Special.badgeFontSize}",
+        "letterSpacing": "{Special.badgeLetterSpacing}",
+        "paragraphSpacing": "{Special.badgeParagraphSpacing}",
+        "textCase": "{Special.badgeTextTransform}"
+      },
+      "type": "typography"
+    },
+    "input-regular": {
+      "value": {
+        "fontFamily": "{Special.inputRegularFontFamily}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "input-regular-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.inputRegularFontFamilyArmenian}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "input-regular-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.inputRegularFontFamilyGeorgian}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "tab-secondary-label-text": {
+      "value": {
+        "fontFamily": "{Special.inputRegularFontFamily}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "Текст подписи кнопки переключателя"
+    },
+    "tab-secondary-label-text-armenian": {
+      "value": {
+        "fontFamily": "{SpecialArmenian.inputRegularFontFamilyArmenian}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "Текст подписи кнопки переключателя"
+    },
+    "tab-secondary-label-text-georgian": {
+      "value": {
+        "fontFamily": "{SpecialGeorgian.inputRegularFontFamilyGeorgian}",
+        "fontWeight": "{Special.inputRegularFontWeight}",
+        "lineHeight": "{Special.inputRegularLineHeight}",
+        "fontSize": "{Special.inputRegularFontSize}",
+        "paragraphSpacing": "{Special.inputRegularParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "Текст подписи кнопки переключателя"
+    },
+    "input-medium": {
+      "value": {
+        "fontFamily": "{Special.inputMediumFontFamily}",
+        "fontWeight": "{Special.inputMediumFontWeight}",
+        "lineHeight": "{Special.inputMediumLineHeight}",
+        "fontSize": "{Special.inputMediumFontSize}",
+        "paragraphSpacing": "{Special.inputMediumParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "tab-secondary-counter-text": {
+      "value": {
+        "fontFamily": "{Special.inputMediumFontFamily}",
+        "fontWeight": "{Special.inputMediumFontWeight}",
+        "lineHeight": "{Special.inputMediumLineHeight}",
+        "fontSize": "{Special.inputMediumFontSize}",
+        "paragraphSpacing": "{Special.inputMediumParagraphSpacing}"
+      },
+      "type": "typography",
+      "description": "Текст счетчика в кнопке переключателя"
+    },
+    "mark-num-text": {
+      "value": {
+        "fontFamily": "{Special.markNumFontFamily}",
+        "fontWeight": "{Special.markNumFontWeight}",
+        "lineHeight": "{Special.markNumLineHeight}",
+        "fontSize": "{Special.markNumFontSize}",
+        "paragraphSpacing": "{Special.markNumParagraphSpacing}",
+        "letterSpacing": "{Special.markNumLetterSpacing}"
+      },
+      "type": "typography"
+    },
+    "mark-bold-num-text": {
+      "value": {
+        "fontFamily": "{Special.markBoldNumFontFamily}",
+        "fontWeight": "{Special.markBoldNumFontWeight}",
+        "lineHeight": "{Special.markBoldNumLineHeight}",
+        "fontSize": "{Special.markBoldNumFontSize}",
+        "paragraphSpacing": "{Special.markNoldNumParagraphSpacing}",
+        "letterSpacing": "{Special.markNumLetterSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-header-num": {
+      "value": {
+        "fontFamily": "{Special.tableHeaderNumFontFamily}",
+        "fontWeight": "{Special.tableHeaderNumFontWeight}",
+        "lineHeight": "{Special.tableHeaderNumLineHeight}",
+        "fontSize": "{Special.tableHeaderNumFontSize}",
+        "paragraphSpacing": "{Special.tableHeaderNumParagraphSpacing}",
+        "letterSpacing": "{Special.tableCellNumLetterSpacing}"
+      },
+      "type": "typography"
+    },
+    "table-cell-num": {
+      "value": {
+        "fontFamily": "{Special.tableCellNumFontFamily}",
+        "fontWeight": "{Special.tableCellNumFontWeight}",
+        "lineHeight": "{Special.tableCellNumLineHeight}",
+        "fontSize": "{Special.tableCellNumFontSize}",
+        "paragraphSpacing": "{Special.tableCellNumParagraphSpacing}",
+        "letterSpacing": "{Special.tableCellNumLetterSpacing}"
+      },
+      "type": "typography"
+    },
+    "input-regular-num": {
+      "value": {
+        "fontFamily": "{Special.inputRegularNumFontFamily}",
+        "fontWeight": "{Special.inputRegularNumFontWeight}",
+        "lineHeight": "{Special.inputRegularNumLineHeight}",
+        "fontSize": "{Special.inputRegularNumFontSize}",
+        "paragraphSpacing": "{Special.inputRegularNumParagraphSpacing}",
+        "letterSpacing": "{Special.inputRegularNumLetterSpacing}"
+      },
+      "type": "typography"
+    },
+    "tabSecondaryShadowActive": {
+      "value": {
+        "x": "1",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Тест: дополнительная граница активной кнопки переключателя"
+    },
+    "tabSecondaryShadowActiveDisabled": {
+      "value": {
+        "x": "1",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{Component special.Buttons.tabSecondaryBorderColorActiveDisabled}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow",
+      "description": "Тест: дополнительная граница активной кнопки отключенного переключателя"
+    },
+    "opacityDisabled": {
+      "value": "1",
+      "type": "opacity",
+      "description": "Прозрачность отключенного элемента управления"
+    },
+    "pagination-text": {
+      "value": {
+        "fontFamily": "{Special.paginationFontFamily}",
+        "fontWeight": "{Special.paginationFontWeight}",
+        "lineHeight": "{Special.paginationLineHeight}",
+        "fontSize": "{Special.paginationFontSize}",
+        "paragraphSpacing": "{Special.badgeParagraphSpacing}"
+      },
+      "type": "typography"
+    },
+    "radioBorder": {
+      "value": {
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "checkboxBorder": {
+      "value": {
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "btnSecondaryBorder": {
+      "value": {
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "btnPrimaryBorder": {
+      "value": {
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "paginationShadowActive": {
+      "value": {
+        "x": "1",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{Component special.Buttons.paginationBorderColorActive}",
+        "type": "dropShadow"
+      },
+      "type": "boxShadow"
+    },
+    "paginationShadowActiveDisabled": {
+      "value": {
+        "x": "1",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "{Component special.Buttons.paginationBorderColorActiveDisabled}",
+        "type": "innerShadow"
+      },
+      "type": "boxShadow"
+    },
+    "cardShadow": {
+      "value": "{shadowElevated}",
+      "type": "boxShadow"
+    },
+    "tabSecondaryShadowActivePrint": {
+      "value": [
+        {
+          "x": "2",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "-1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "-2",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "1",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "{Component special.Buttons.tabSecondaryBorderColorActive}",
+          "type": "dropShadow"
+        }
+      ],
+      "type": "boxShadow",
+      "description": "{draft} Обводка активной кнопки переключателя в печатной версии"
+    },
+    "sliderItemBgColorActiveDisabled": {
+      "value": "{Common.General.mist30}",
+      "type": "color"
+    },
+    "sliderItemTextActiveDisabled": {
+      "value": "{Common.General.white}",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "MegaFon_communicator"
+    ]
+  }
+}
