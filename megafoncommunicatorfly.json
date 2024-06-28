@@ -1736,66 +1736,6 @@
           "value": "{Component variables.btnPrimaryTextColorTouchVar}",
           "type": "color"
         },
-        "btnRatingBgColorActive": {
-          "value": "{Component variables.activeNonClickableVar}",
-          "type": "color",
-          "description": "Фон активной кнопки рейтинга"
-        },
-        "btnRatingBgColorDefault": {
-          "value": "{Common.General.white}",
-          "type": "color",
-          "description": "Фон кнопки рейтинга"
-        },
-        "btnRatingBgColorHover": {
-          "value": "{Common.General.mist5}",
-          "type": "color",
-          "description": "Фон кнопки рейтинга при наведении"
-        },
-        "btnRatingBgColorTouch": {
-          "value": "{Common.General.mist15}",
-          "type": "color",
-          "description": "Фон кнопки рейтинга при нажатии"
-        },
-        "btnRatingBorderColorActive": {
-          "value": "{Component variables.activeNonClickableVar}",
-          "type": "color",
-          "description": "Обводка активной кнопки рейтинга"
-        },
-        "btnRatingBorderColorDefault": {
-          "value": "{Common.General.mist15}",
-          "type": "color",
-          "description": "Обводка кнопки рейтинга"
-        },
-        "btnRatingBorderColorHover": {
-          "value": "{Common.General.mist15}",
-          "type": "color",
-          "description": "Обводка кнопки рейтинга при наведении"
-        },
-        "btnRatingBorderColorTouch": {
-          "value": "{Common.General.mist15}",
-          "type": "color",
-          "description": "Обводка кнопки рейтинга при нажатии"
-        },
-        "btnRatingTextColorActive": {
-          "value": "{Common.General.white}",
-          "type": "color",
-          "description": "Текст активной кнопки рейтинга"
-        },
-        "btnRatingTextColorDefault": {
-          "value": "{Component common.Text.textColorHighContrast}",
-          "type": "color",
-          "description": "Текст кнопки рейтинга"
-        },
-        "btnRatingTextColorHover": {
-          "value": "{Component variables.linkHoverVar}",
-          "type": "color",
-          "description": "Текст кнопки рейтинга при наведении"
-        },
-        "btnRatingTextColorTouch": {
-          "value": "{Component variables.linkTouchVar}",
-          "type": "color",
-          "description": "Текст кнопки рейтинга при нажатии"
-        },
         "btnSecondaryBgColorDefault": {
           "value": "{Component variables.btnSecondaryBgColorDefaultVar}",
           "type": "color"
