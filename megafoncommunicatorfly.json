@@ -1584,10 +1584,6 @@
           "value": "rgba({Component variables.linkDefaultVar}, 0.2)",
           "type": "color"
         },
-        "intro": {
-          "value": "{Common.General.mist5}",
-          "type": "color"
-        },
         "live": {
           "value": "#FF5A25",
           "type": "color"
@@ -1608,11 +1604,6 @@
         "skeletonColorBg": {
           "value": "{Common.General.mist5}",
           "type": "color"
-        },
-        "smsCardBgColor": {
-          "value": "{Common.General.mist10}",
-          "type": "color",
-          "description": "Фон активной смс"
         }
       },
       "Status": {
