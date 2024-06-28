@@ -2531,13 +2531,6 @@
           "type": "color"
         }
       },
-      "Rating scale": {
-        "descriptionText": {
-          "value": "{Common.General.mist30}",
-          "type": "color",
-          "description": "Текст описания в шкале оценки"
-        }
-      },
       "Scroll": {
         "scrollThumbColorDefault": {
           "value": "{Common.General.mist30}66",
