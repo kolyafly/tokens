@@ -1658,13 +1658,6 @@
           "value": "{Common.General.white}",
           "type": "color"
         }
-      },
-      "Unviewed": {
-        "unviewedDefault": {
-          "value": "{Common.Brand.brand1}",
-          "type": "color",
-          "description": "Непросмотренный контент: уведомления, звонки и т. п."
-        }
       }
     },
     "Component special": {
