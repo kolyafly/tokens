@@ -1696,40 +1696,6 @@
           "value": "{Common.Brand.brand6}",
           "type": "color"
         },
-        "btnCountBgColor": {
-          "value": "{Common.General.transparent}",
-          "type": "color",
-          "description": "Фон кнопки количества"
-        },
-        "btnCountBgColorDisabled": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        },
-        "btnCountBgColorHover": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        },
-        "btnCountBgColorTouch": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        },
-        "btnCountColorDefault": {
-          "value": "{Common.General.mist80}",
-          "type": "color"
-        },
-        "btnCountColorDisabled": {
-          "value": "{Common.General.mist30}",
-          "type": "color",
-          "description": "Задизейбленная кнопка количества"
-        },
-        "btnCountColorHover": {
-          "value": "{Component variables.linkHoverVar}",
-          "type": "color"
-        },
-        "btnCountColorTouch": {
-          "value": "{Component variables.linkTouchVar}",
-          "type": "color"
-        },
         "btnPrimaryBgColorDefault": {
           "value": "{Component variables.btnPrimaryBgColorDefaultVar}",
           "type": "color"
