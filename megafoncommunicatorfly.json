@@ -2330,14 +2330,6 @@
         }
       },
       "Navigation": {
-        "breadCrumbColorActive": {
-          "value": "{Component variables.activeNonClickableVar}",
-          "type": "color"
-        },
-        "breadCrumbColorDefault": {
-          "value": "{Common.General.mist80}",
-          "type": "color"
-        },
         "headerBarBgColor": {
           "value": "{Component variables.headerBarBgColorVar}",
           "type": "color"
