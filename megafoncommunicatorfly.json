@@ -2180,16 +2180,6 @@
           "type": "color"
         }
       },
-      "Counter": {
-        "counterBgColor": {
-          "value": "{Common.Brand.brand4}",
-          "type": "color"
-        },
-        "counterColor": {
-          "value": "{Common.General.white}",
-          "type": "color"
-        }
-      },
       "Dividers": {
         "divider": {
           "value": "{Common.General.mist15}",
@@ -2219,36 +2209,6 @@
         },
         "cardPlateBgColorHover": {
           "value": "{Common.General.mist5}",
-          "type": "color"
-        }
-      },
-      "Hourly Load": {
-        "statisticsHourlyBgColorFuture": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        },
-        "statisticsHourlyBgColorHigh": {
-          "value": "#FEB67B",
-          "type": "color"
-        },
-        "statisticsHourlyBgColorMiddle": {
-          "value": "#FFD2AE",
-          "type": "color"
-        },
-        "statisticsHourlyBgColorMinimum": {
-          "value": "#FFE9D6",
-          "type": "color"
-        },
-        "statisticsHourlyBgColorNoData": {
-          "value": "{Common.General.mist5}",
-          "type": "color"
-        },
-        "statisticsHourlyBgMaximum": {
-          "value": "#FE9239",
-          "type": "color"
-        },
-        "statisticsHourlyDivider": {
-          "value": "{Common.General.mist10}",
           "type": "color"
         }
       },
