@@ -2334,14 +2334,6 @@
           "value": "{Component variables.headerBarBgColorVar}",
           "type": "color"
         },
-        "initialCrmSetupH1Color": {
-          "value": "{Component variables.sidebarItemContentColorDefaultVar}",
-          "type": "color"
-        },
-        "initialCrmSetupHeaderBgColor": {
-          "value": "{Component variables.sidebarBgColorVar}",
-          "type": "color"
-        },
         "sidebarBgColor": {
           "value": "{Component variables.sidebarBgColorVar}",
           "type": "color"
