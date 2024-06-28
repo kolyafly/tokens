@@ -1555,10 +1555,6 @@
           "value": "#FFA717",
           "type": "color"
         },
-        "graphicsColorBg": {
-          "value": "{Common.General.mist5}",
-          "type": "color"
-        },
         "graphicsColorGray": {
           "value": "{Common.General.mist30}",
           "type": "color"
