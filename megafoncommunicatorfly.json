@@ -2483,13 +2483,6 @@
           "type": "color"
         }
       },
-      "Notice blocking": {
-        "bgColorNoticeBlocking": {
-          "value": "rgba({Component common.Critical.criticalDefault}, 0.08)",
-          "type": "color",
-          "description": "Цвет оверлея фона уведомления о финансовой блокировке"
-        }
-      },
       "Option info": {
         "demoBgColorDefault": {
           "value": "#6688C8",
