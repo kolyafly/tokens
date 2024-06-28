@@ -1677,10 +1677,6 @@
           "value": "{Common.General.mist10}",
           "type": "color",
           "description": "Бейджики с вложенностью"
-        },
-        "badgeSales": {
-          "value": "#5AE95E",
-          "type": "color"
         }
       },
       "Buttons": {
