@@ -2549,24 +2549,6 @@
           "type": "color"
         }
       },
-      "SelectableCards": {
-        "selectableCardsBorderActive": {
-          "value": "{Common.Brand.brand4}",
-          "type": "color"
-        },
-        "selectableCardsBorderDefault": {
-          "value": "{Component special.Inputs.inputBorderColorDefault}",
-          "type": "color"
-        },
-        "selectableCardsBorderHover": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        },
-        "selectableCardsBorderTouch": {
-          "value": "{Common.General.transparent}",
-          "type": "color"
-        }
-      },
       "Spinner": {
         "spinnerColorHighContrast": {
           "value": "{Common.General.mist80}",
