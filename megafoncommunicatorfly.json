@@ -2336,24 +2336,6 @@
           "type": "color"
         }
       },
-      "Monitoring": {
-        "qualityBgColorBad": {
-          "value": "{Component common.Status.bad}",
-          "type": "color"
-        },
-        "qualityBgColorGood": {
-          "value": "{Component common.Status.good}",
-          "type": "color"
-        },
-        "qualityBgColorMiddle": {
-          "value": "{Component common.Status.warningColor}",
-          "type": "color"
-        },
-        "qualityBgColorNone": {
-          "value": "{Common.General.mist15}",
-          "type": "color"
-        }
-      },
       "Navigation": {
         "breadCrumbColorActive": {
           "value": "{Component variables.activeNonClickableVar}",
